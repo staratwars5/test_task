@@ -1,0 +1,10 @@
+you need .NET SDK 6.0 or newer
+
+command:
+
+- dotnet build
+- dotnet run <sourceFolder> <replicaFolder> <intervalInSeconds> <logFilePath>
+  sourceFolder : Path of the source folder (to be synchronized).
+  replicaFolder : Path of the replica folder (where the synchronization will be performed).
+  intervalInSeconds : Time interval between each synchronization (in seconds).
+  logFilePath : Path of the file where the synchronization operations will be logged.
